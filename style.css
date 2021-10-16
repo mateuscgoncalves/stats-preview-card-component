@@ -107,10 +107,11 @@ body {
   .stats__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 351.5px; }
 
   .stats__item {
-    display: inline-block; } }
+    display: inline-block;
+    width: 83px; } }
 
 /*# sourceMappingURL=style.css.map */
