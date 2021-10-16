@@ -33,7 +33,7 @@ Mobile
 
 ### Links
 
-- Solution URL: [Github](https://github.com/mateuscgoncalves/stats-preview-card-component)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-using-sass-YfLMWWKcv)
 - Live Site URL: [Vercel](https://stats-preview-card-component-alpha-two.vercel.app)
 
 ## Built with
