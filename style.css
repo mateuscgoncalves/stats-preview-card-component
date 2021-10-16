@@ -79,6 +79,16 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase; }
 
+.attribution {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 16px; }
+
+.attribution__link {
+  color: #aa5cdb; }
+
 @media screen and (min-width: 1440px) {
   .card {
     width: 1110px;
