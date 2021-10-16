@@ -1,0 +1,36 @@
+//Resets
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+//Variables
+
+//Colors
+//  primary
+$very-dark-blue: hsl(233, 47%, 7%)
+$dark-blue: hsl(244, 38%, 16%)
+$soft-violet: hsl(277, 64%, 61%)
+
+// neutral
+$white: hsl(0, 0%, 100%)
+$seventy-five-white: hsl(0, 0%, 0.75)
+$sixty: hsl(0, 0%,0.6)
+
+//Fonts
+// font families
+$inter: 'Inter', sans-serif
+$lexend-deca: 'Lexend Deca', sans-serif
+// weights
+$normal-weight: 400
+$bold-weight: 700
+
+//Mixings
+=text-style($color, $size, $weight, $family)
+    color: $color
+    font-size: $size
+    font-weight: $weight
+    font-family: $family
+
+=desktop-screen
+    @media screen and (min-width: 1440px)
+        @content
