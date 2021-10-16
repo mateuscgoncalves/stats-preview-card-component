@@ -8,13 +8,13 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 88px;
+  padding: 88px 0;
   width: 100vw;
   min-height: 100vh; }
 
 @media screen and (min-width: 1440px) {
   body {
-    padding-top: 177px; } }
+    padding: 177px 0; } }
 .background {
   background-color: #090b1a; }
 
