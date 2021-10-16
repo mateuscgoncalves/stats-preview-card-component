@@ -124,6 +124,25 @@ body {
 
   .stats__item {
     display: inline-block;
-    width: 83px; } }
+    width: 83px; }
+
+  .stats__item--last {
+    width: unset; }
+
+  .stats__number {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    line-height: 29px; }
+
+  .stats__label {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase; } }
 
 /*# sourceMappingURL=style.css.map */
