@@ -13,17 +13,40 @@
     height: 240px
     background-image: url('images/image-header-mobile.jpg')
     background-size: cover
-    margin-bottom: 32px
 
 .card__body
     text-align: center
+    background-color: $dark-blue
+    padding: 32px 31.5px
 
 .card__title
     margin: 8px 0
     +text-style($white, 28px, $bold-weight, $inter)
+    line-heigth: 32px
+    display: inline-block
+
+.card__title--highlighted
+    color: $soft-violet
 
 .card__description
     margin: 8px 0
+    +text-style($seventy-five-white, 15px, $normal-weight, $inter)
+    line-heigth: 25px
+    display: inline-block
 
 .stats__list
     margin: 32px 0
+    list-style: none
+
+.stats__item
+    margin-bottom: 24px
+
+.stats__number
+    +text-style($white, 24px, $bold-weight, $inter)
+    line-height: 29px
+
+.stats__label
+    +text-style($sixty-white, 12px, $normal-weight, $lexend-deca)
+    line-height: 29px
+    letter-spacing: 1px
+    text-transform: uppercase
