@@ -4,7 +4,6 @@
 .card
     width: 327px
     height: 780px
-    background-color: white
     border-radius: 8px
     overflow: hidden
 
@@ -22,7 +21,7 @@
 .card__title
     margin: 8px 0
     +text-style($white, 28px, $bold-weight, $inter)
-    line-heigth: 32px
+    line-height: 32px
     display: inline-block
 
 .card__title--highlighted
@@ -31,7 +30,7 @@
 .card__description
     margin: 8px 0
     +text-style($seventy-five-white, 15px, $normal-weight, $inter)
-    line-heigth: 25px
+    line-height: 25px
     display: inline-block
 
 .stats__list
@@ -50,3 +49,37 @@
     line-height: 29px
     letter-spacing: 1px
     text-transform: uppercase
+
++desktop-screen
+    .card
+        width: 1110px
+        height: 446px
+        display: flex
+        flex-direction: row-reverse
+
+    .card__image
+        flex-basis: 540px
+        flex-shrink: 0
+        height: 100%
+        background-image: url('images/image-header-desktop.jpg')
+
+    .card__body
+        text-align: left
+        padding: 71px 95px 71px 72px
+
+    .card__title
+        margin: 12px 0
+        font-size: 36px
+        line-height: 44px
+
+    .card__description
+        max-width: 347px
+
+    .stats__list
+        display: flex
+        flex-direction: row
+        justify-content: space-evenly
+        width: 351.5px
+
+    .stats__item
+        display: inline-block
